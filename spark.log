@@ -1,0 +1,1236 @@
+2024-12-01 23:56:40 INFO  log:170 - Logging initialized @28521ms to org.sparkproject.jetty.util.log.Slf4jLog
+2024-12-01 23:56:40 INFO  Server:375 - jetty-9.4.54.v20240208; built: 2024-02-08T19:42:39.027Z; git: cef3fbd6d736a21e7d541a5db490381d95a2047d; jvm 21.0.5+11-LTS
+2024-12-01 23:56:40 INFO  Server:415 - Started @28690ms
+2024-12-01 23:56:40 INFO  AbstractConnector:333 - Started ServerConnector@74c8eff1{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2024-12-01 23:56:40 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@1accc75c{/,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:1159 - Stopped o.s.j.s.ServletContextHandler@1accc75c{/,null,STOPPED,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@31668c35{/jobs,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@7df54f31{/jobs/json,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@1fb59fbc{/jobs/job,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@bdd4d60{/jobs/job/json,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@61c9cc6{/stages,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@308a9cae{/stages/json,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@24a2b887{/stages/stage,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@1cebd8f6{/stages/stage/json,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@39d93a08{/stages/pool,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@11b6c61e{/stages/pool/json,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@1f57f11c{/storage,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@2f7e9c7e{/storage/json,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@1448d446{/storage/rdd,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@3eca4be4{/storage/rdd/json,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@60aff174{/environment,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@c683f25{/environment/json,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@1e8559f7{/executors,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@3dcbb3a2{/executors/json,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@791c5b40{/executors/threadDump,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@50a857c8{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@110245de{/executors/heapHistogram,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@46fb1010{/executors/heapHistogram/json,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@31b32d40{/static,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@46345f0a{/,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@1bdb183b{/api,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@44c9f491{/jobs/job/kill,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@1fd80a06{/stages/stage/kill,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@43f664a6{/metrics/json,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@223ac0bb{/SQL,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@7129de4a{/SQL/json,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@65be5675{/SQL/execution,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@1766597a{/SQL/execution/json,null,AVAILABLE,@Spark}
+2024-12-01 23:56:45 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@3bc2ca99{/static/sql,null,AVAILABLE,@Spark}
+2024-12-01 23:56:48 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@5c5cf456{/StreamingQuery,null,AVAILABLE,@Spark}
+2024-12-01 23:56:48 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@660ce952{/StreamingQuery/json,null,AVAILABLE,@Spark}
+2024-12-01 23:56:48 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@63d13d80{/StreamingQuery/statistics,null,AVAILABLE,@Spark}
+2024-12-01 23:56:48 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@77090836{/StreamingQuery/statistics/json,null,AVAILABLE,@Spark}
+2024-12-01 23:56:48 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@4d006f8f{/static/sql,null,AVAILABLE,@Spark}
+2024-12-01 23:56:49 INFO  AdminClientConfig:372 - AdminClientConfig values: 
+	bootstrap.servers = [77.81.230.104:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = PLAIN
+	security.protocol = SASL_PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2024-12-01 23:56:49 INFO  AbstractLogin:61 - Successfully logged in.
+2024-12-01 23:56:49 WARN  AdminClientConfig:380 - The configuration 'key.deserializer' was supplied but isn't a known config.
+2024-12-01 23:56:49 WARN  AdminClientConfig:380 - The configuration 'value.deserializer' was supplied but isn't a known config.
+2024-12-01 23:56:49 WARN  AdminClientConfig:380 - The configuration 'enable.auto.commit' was supplied but isn't a known config.
+2024-12-01 23:56:49 WARN  AdminClientConfig:380 - The configuration 'max.poll.records' was supplied but isn't a known config.
+2024-12-01 23:56:49 WARN  AdminClientConfig:380 - The configuration 'auto.offset.reset' was supplied but isn't a known config.
+2024-12-01 23:56:49 INFO  AppInfoParser:119 - Kafka version: 2.8.0
+2024-12-01 23:56:49 INFO  AppInfoParser:120 - Kafka commitId: ebb1d6e21cc92130
+2024-12-01 23:56:49 INFO  AppInfoParser:121 - Kafka startTimeMs: 1733093809082
+2024-12-01 23:56:53 INFO  ConsumerConfig:372 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = none
+	bootstrap.servers = [77.81.230.104:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = PLAIN
+	security.protocol = SASL_PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+2024-12-01 23:56:53 INFO  ConsumerConfig:372 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = none
+	bootstrap.servers = [77.81.230.104:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = PLAIN
+	security.protocol = SASL_PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+2024-12-01 23:56:53 INFO  AppInfoParser:119 - Kafka version: 2.8.0
+2024-12-01 23:56:53 INFO  AppInfoParser:120 - Kafka commitId: ebb1d6e21cc92130
+2024-12-01 23:56:53 INFO  AppInfoParser:121 - Kafka startTimeMs: 1733093813307
+2024-12-01 23:56:53 INFO  AppInfoParser:119 - Kafka version: 2.8.0
+2024-12-01 23:56:53 INFO  KafkaConsumer:1120 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-2, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Subscribed to partition(s): building_sensors_MZ-1
+2024-12-01 23:56:53 INFO  AppInfoParser:120 - Kafka commitId: ebb1d6e21cc92130
+2024-12-01 23:56:53 INFO  AppInfoParser:121 - Kafka startTimeMs: 1733093813307
+2024-12-01 23:56:53 INFO  KafkaConsumer:1120 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-1, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Subscribed to partition(s): building_sensors_MZ-0
+2024-12-01 23:56:53 INFO  KafkaConsumer:1582 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-1, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Seeking to offset 0 for partition building_sensors_MZ-0
+2024-12-01 23:56:53 INFO  KafkaConsumer:1582 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-2, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Seeking to offset 0 for partition building_sensors_MZ-1
+2024-12-01 23:56:53 INFO  Metadata:279 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-1, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Cluster ID: chIAo_gdRnOVaOI0JkkL_w
+2024-12-01 23:56:53 INFO  Metadata:279 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-2, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Cluster ID: chIAo_gdRnOVaOI0JkkL_w
+2024-12-01 23:56:53 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-1, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Seeking to EARLIEST offset of partition building_sensors_MZ-0
+2024-12-01 23:56:53 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-2, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Seeking to EARLIEST offset of partition building_sensors_MZ-1
+2024-12-01 23:56:54 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-2, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Resetting offset for partition building_sensors_MZ-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-01 23:56:54 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-1, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Resetting offset for partition building_sensors_MZ-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-01 23:56:54 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-2, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Seeking to LATEST offset of partition building_sensors_MZ-1
+2024-12-01 23:56:54 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-1, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Seeking to LATEST offset of partition building_sensors_MZ-0
+2024-12-01 23:56:54 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-1, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Resetting offset for partition building_sensors_MZ-0 to position FetchPosition{offset=56, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-01 23:56:54 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-2, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Resetting offset for partition building_sensors_MZ-1 to position FetchPosition{offset=59, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-01 23:56:55 INFO  KafkaConsumer:1582 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-1, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Seeking to offset 0 for partition building_sensors_MZ-0
+2024-12-01 23:56:55 INFO  KafkaConsumer:1582 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-2, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Seeking to offset 0 for partition building_sensors_MZ-1
+2024-12-01 23:56:55 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-1, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Seeking to EARLIEST offset of partition building_sensors_MZ-0
+2024-12-01 23:56:55 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-2, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Seeking to EARLIEST offset of partition building_sensors_MZ-1
+2024-12-01 23:56:55 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-2, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Resetting offset for partition building_sensors_MZ-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-01 23:56:55 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-1, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Resetting offset for partition building_sensors_MZ-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-01 23:56:55 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-1, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Seeking to LATEST offset of partition building_sensors_MZ-0
+2024-12-01 23:56:55 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-2, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Seeking to LATEST offset of partition building_sensors_MZ-1
+2024-12-01 23:56:55 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-2, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Resetting offset for partition building_sensors_MZ-1 to position FetchPosition{offset=59, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-01 23:56:55 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-1, groupId=spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor] Resetting offset for partition building_sensors_MZ-0 to position FetchPosition{offset=56, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-01 23:56:57 INFO  AppInfoParser:83 - App info kafka.admin.client for adminclient-1 unregistered
+2024-12-01 23:56:57 INFO  Metrics:659 - Metrics scheduler closed
+2024-12-01 23:56:57 INFO  Metrics:663 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-12-01 23:56:57 INFO  Metrics:669 - Metrics reporters closed
+2024-12-01 23:56:57 INFO  Metrics:659 - Metrics scheduler closed
+2024-12-01 23:56:57 INFO  Metrics:663 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-12-01 23:56:57 INFO  Metrics:669 - Metrics reporters closed
+2024-12-01 23:56:57 INFO  AppInfoParser:83 - App info kafka.consumer for consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-1 unregistered
+2024-12-01 23:56:57 INFO  Metrics:659 - Metrics scheduler closed
+2024-12-01 23:56:57 INFO  Metrics:663 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-12-01 23:56:57 INFO  Metrics:669 - Metrics reporters closed
+2024-12-01 23:56:57 INFO  AppInfoParser:83 - App info kafka.consumer for consumer-spark-kafka-source-1fdf8ebc-6f36-4fb4-af81-bc6a3318e0c5--87282277-executor-2 unregistered
+2024-12-01 23:56:57 INFO  AbstractConnector:383 - Stopped Spark@74c8eff1{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2024-12-01 23:57:48 INFO  log:170 - Logging initialized @4186ms to org.sparkproject.jetty.util.log.Slf4jLog
+2024-12-01 23:57:48 INFO  Server:375 - jetty-9.4.54.v20240208; built: 2024-02-08T19:42:39.027Z; git: cef3fbd6d736a21e7d541a5db490381d95a2047d; jvm 21.0.5+11-LTS
+2024-12-01 23:57:48 INFO  Server:415 - Started @4331ms
+2024-12-01 23:57:48 INFO  AbstractConnector:333 - Started ServerConnector@2989e900{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2024-12-01 23:57:48 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@4758c62f{/,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:1159 - Stopped o.s.j.s.ServletContextHandler@4758c62f{/,null,STOPPED,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@111f70fc{/jobs,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@63239113{/jobs/json,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@59f63283{/jobs/job,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@23ca7962{/jobs/job/json,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@79f2cb3c{/stages,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@6d82b66d{/stages/json,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@670691b2{/stages/stage,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@50d1e694{/stages/stage/json,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@134a57ea{/stages/pool,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@6b34700f{/stages/pool/json,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@7c6e2d79{/storage,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@76f4885b{/storage/json,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@108c4ea6{/storage/rdd,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@3d836886{/storage/rdd/json,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@77d8fd33{/environment,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@2961ff2{/environment/json,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@2c08ab54{/executors,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@6991816{/executors/json,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@3c1c42d9{/executors/threadDump,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@512d5280{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@62baf0d8{/executors/heapHistogram,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@134ed6f5{/executors/heapHistogram/json,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@69de42af{/static,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@35436396{/,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@740aa54d{/api,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@4a09de5d{/jobs/job/kill,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@5f8af940{/stages/stage/kill,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@5012d182{/metrics/json,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@75accf5f{/SQL,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@603702c0{/SQL/json,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@1a846c15{/SQL/execution,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@2f32b96{/SQL/execution/json,null,AVAILABLE,@Spark}
+2024-12-01 23:57:53 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@d2110a3{/static/sql,null,AVAILABLE,@Spark}
+2024-12-01 23:57:55 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@74214581{/StreamingQuery,null,AVAILABLE,@Spark}
+2024-12-01 23:57:55 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@7c9c9ee0{/StreamingQuery/json,null,AVAILABLE,@Spark}
+2024-12-01 23:57:55 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@28b5d6f{/StreamingQuery/statistics,null,AVAILABLE,@Spark}
+2024-12-01 23:57:55 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@2c43fec7{/StreamingQuery/statistics/json,null,AVAILABLE,@Spark}
+2024-12-01 23:57:55 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@2a87ed19{/static/sql,null,AVAILABLE,@Spark}
+2024-12-01 23:57:56 INFO  AdminClientConfig:372 - AdminClientConfig values: 
+	bootstrap.servers = [77.81.230.104:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = PLAIN
+	security.protocol = SASL_PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2024-12-01 23:57:56 INFO  AbstractLogin:61 - Successfully logged in.
+2024-12-01 23:57:56 WARN  AdminClientConfig:380 - The configuration 'key.deserializer' was supplied but isn't a known config.
+2024-12-01 23:57:56 WARN  AdminClientConfig:380 - The configuration 'value.deserializer' was supplied but isn't a known config.
+2024-12-01 23:57:56 WARN  AdminClientConfig:380 - The configuration 'enable.auto.commit' was supplied but isn't a known config.
+2024-12-01 23:57:56 WARN  AdminClientConfig:380 - The configuration 'max.poll.records' was supplied but isn't a known config.
+2024-12-01 23:57:56 WARN  AdminClientConfig:380 - The configuration 'auto.offset.reset' was supplied but isn't a known config.
+2024-12-01 23:57:56 INFO  AppInfoParser:119 - Kafka version: 2.8.0
+2024-12-01 23:57:56 INFO  AppInfoParser:120 - Kafka commitId: ebb1d6e21cc92130
+2024-12-01 23:57:56 INFO  AppInfoParser:121 - Kafka startTimeMs: 1733093876530
+2024-12-01 23:57:59 INFO  ConsumerConfig:372 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = none
+	bootstrap.servers = [77.81.230.104:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = PLAIN
+	security.protocol = SASL_PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+2024-12-01 23:57:59 INFO  ConsumerConfig:372 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = none
+	bootstrap.servers = [77.81.230.104:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = PLAIN
+	security.protocol = SASL_PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+2024-12-01 23:57:59 INFO  AppInfoParser:119 - Kafka version: 2.8.0
+2024-12-01 23:57:59 INFO  AppInfoParser:120 - Kafka commitId: ebb1d6e21cc92130
+2024-12-01 23:57:59 INFO  AppInfoParser:121 - Kafka startTimeMs: 1733093879937
+2024-12-01 23:57:59 INFO  AppInfoParser:119 - Kafka version: 2.8.0
+2024-12-01 23:57:59 INFO  KafkaConsumer:1120 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-2, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Subscribed to partition(s): building_sensors_MZ-1
+2024-12-01 23:57:59 INFO  AppInfoParser:120 - Kafka commitId: ebb1d6e21cc92130
+2024-12-01 23:57:59 INFO  AppInfoParser:121 - Kafka startTimeMs: 1733093879937
+2024-12-01 23:57:59 INFO  KafkaConsumer:1120 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-1, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Subscribed to partition(s): building_sensors_MZ-0
+2024-12-01 23:57:59 INFO  KafkaConsumer:1582 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-1, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Seeking to offset 0 for partition building_sensors_MZ-0
+2024-12-01 23:57:59 INFO  KafkaConsumer:1582 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-2, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Seeking to offset 0 for partition building_sensors_MZ-1
+2024-12-01 23:58:00 INFO  Metadata:279 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-1, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Cluster ID: chIAo_gdRnOVaOI0JkkL_w
+2024-12-01 23:58:00 INFO  Metadata:279 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-2, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Cluster ID: chIAo_gdRnOVaOI0JkkL_w
+2024-12-01 23:58:00 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-2, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Seeking to EARLIEST offset of partition building_sensors_MZ-1
+2024-12-01 23:58:00 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-1, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Seeking to EARLIEST offset of partition building_sensors_MZ-0
+2024-12-01 23:58:01 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-1, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Resetting offset for partition building_sensors_MZ-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-01 23:58:01 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-2, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Resetting offset for partition building_sensors_MZ-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-01 23:58:01 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-1, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Seeking to LATEST offset of partition building_sensors_MZ-0
+2024-12-01 23:58:01 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-2, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Seeking to LATEST offset of partition building_sensors_MZ-1
+2024-12-01 23:58:01 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-1, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Resetting offset for partition building_sensors_MZ-0 to position FetchPosition{offset=56, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-01 23:58:01 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-2, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Resetting offset for partition building_sensors_MZ-1 to position FetchPosition{offset=59, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-01 23:58:01 INFO  KafkaConsumer:1582 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-1, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Seeking to offset 0 for partition building_sensors_MZ-0
+2024-12-01 23:58:01 INFO  KafkaConsumer:1582 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-2, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Seeking to offset 0 for partition building_sensors_MZ-1
+2024-12-01 23:58:01 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-2, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Seeking to EARLIEST offset of partition building_sensors_MZ-1
+2024-12-01 23:58:01 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-1, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Seeking to EARLIEST offset of partition building_sensors_MZ-0
+2024-12-01 23:58:02 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-2, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Resetting offset for partition building_sensors_MZ-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-01 23:58:02 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-1, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Resetting offset for partition building_sensors_MZ-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-01 23:58:02 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-2, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Seeking to LATEST offset of partition building_sensors_MZ-1
+2024-12-01 23:58:02 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-1, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Seeking to LATEST offset of partition building_sensors_MZ-0
+2024-12-01 23:58:02 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-2, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Resetting offset for partition building_sensors_MZ-1 to position FetchPosition{offset=59, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-01 23:58:02 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-1, groupId=spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor] Resetting offset for partition building_sensors_MZ-0 to position FetchPosition{offset=56, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-01 23:58:03 INFO  AppInfoParser:83 - App info kafka.admin.client for adminclient-1 unregistered
+2024-12-01 23:58:03 INFO  Metrics:659 - Metrics scheduler closed
+2024-12-01 23:58:03 INFO  Metrics:663 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-12-01 23:58:03 INFO  Metrics:669 - Metrics reporters closed
+2024-12-01 23:58:03 INFO  Metrics:659 - Metrics scheduler closed
+2024-12-01 23:58:03 INFO  Metrics:663 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-12-01 23:58:03 INFO  Metrics:669 - Metrics reporters closed
+2024-12-01 23:58:03 INFO  AppInfoParser:83 - App info kafka.consumer for consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-2 unregistered
+2024-12-01 23:58:03 INFO  Metrics:659 - Metrics scheduler closed
+2024-12-01 23:58:03 INFO  Metrics:663 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-12-01 23:58:03 INFO  Metrics:669 - Metrics reporters closed
+2024-12-01 23:58:03 INFO  AppInfoParser:83 - App info kafka.consumer for consumer-spark-kafka-source-d6bba67e-aeb4-40d0-ad6d-1b0bd61e3ae7-1864471166-executor-1 unregistered
+2024-12-01 23:58:03 INFO  AbstractConnector:383 - Stopped Spark@2989e900{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2024-12-02 00:31:31 INFO  log:170 - Logging initialized @3973ms to org.sparkproject.jetty.util.log.Slf4jLog
+2024-12-02 00:31:31 INFO  Server:375 - jetty-9.4.54.v20240208; built: 2024-02-08T19:42:39.027Z; git: cef3fbd6d736a21e7d541a5db490381d95a2047d; jvm 21.0.5+11-LTS
+2024-12-02 00:31:31 INFO  Server:415 - Started @4093ms
+2024-12-02 00:31:32 INFO  AbstractConnector:333 - Started ServerConnector@2989e900{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2024-12-02 00:31:32 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@4758c62f{/,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:1159 - Stopped o.s.j.s.ServletContextHandler@4758c62f{/,null,STOPPED,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@77ed0013{/jobs,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@26a2944d{/jobs/json,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@11f881aa{/jobs/job,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@1df3cdd8{/jobs/job/json,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@38a28fa6{/stages,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@5478828c{/stages/json,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@4012d55b{/stages/stage,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@340ec55c{/stages/stage/json,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@3d5ac83f{/stages/pool,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@3e88238d{/stages/pool/json,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@1d84ad8a{/storage,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@6fe79371{/storage/json,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@5537a41{/storage/rdd,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@247794a2{/storage/rdd/json,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@1c89fc93{/environment,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@34c2e8f3{/environment/json,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@55a70132{/executors,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@1f3ab0d9{/executors/json,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@3c6e7706{/executors/threadDump,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@284c282e{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@5cd745dd{/executors/heapHistogram,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@201a1ae2{/executors/heapHistogram/json,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@2399c5aa{/static,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@4fd3d8bb{/,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@18737bed{/api,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@23e964c1{/jobs/job/kill,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@2f17069d{/stages/stage/kill,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@20580e39{/metrics/json,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@75accf5f{/SQL,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@603702c0{/SQL/json,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@1a846c15{/SQL/execution,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@2f32b96{/SQL/execution/json,null,AVAILABLE,@Spark}
+2024-12-02 00:31:36 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@d2110a3{/static/sql,null,AVAILABLE,@Spark}
+2024-12-02 00:31:39 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@17b5444{/StreamingQuery,null,AVAILABLE,@Spark}
+2024-12-02 00:31:39 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@417a163f{/StreamingQuery/json,null,AVAILABLE,@Spark}
+2024-12-02 00:31:39 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@3a07a2ba{/StreamingQuery/statistics,null,AVAILABLE,@Spark}
+2024-12-02 00:31:39 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@11306436{/StreamingQuery/statistics/json,null,AVAILABLE,@Spark}
+2024-12-02 00:31:39 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@1ff8c69d{/static/sql,null,AVAILABLE,@Spark}
+2024-12-02 00:31:39 INFO  AdminClientConfig:372 - AdminClientConfig values: 
+	bootstrap.servers = [77.81.230.104:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = PLAIN
+	security.protocol = SASL_PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2024-12-02 00:31:39 INFO  AbstractLogin:61 - Successfully logged in.
+2024-12-02 00:31:39 WARN  AdminClientConfig:380 - The configuration 'key.deserializer' was supplied but isn't a known config.
+2024-12-02 00:31:39 WARN  AdminClientConfig:380 - The configuration 'value.deserializer' was supplied but isn't a known config.
+2024-12-02 00:31:39 WARN  AdminClientConfig:380 - The configuration 'enable.auto.commit' was supplied but isn't a known config.
+2024-12-02 00:31:39 WARN  AdminClientConfig:380 - The configuration 'max.poll.records' was supplied but isn't a known config.
+2024-12-02 00:31:39 WARN  AdminClientConfig:380 - The configuration 'auto.offset.reset' was supplied but isn't a known config.
+2024-12-02 00:31:39 INFO  AppInfoParser:119 - Kafka version: 2.8.0
+2024-12-02 00:31:39 INFO  AppInfoParser:120 - Kafka commitId: ebb1d6e21cc92130
+2024-12-02 00:31:39 INFO  AppInfoParser:121 - Kafka startTimeMs: 1733095899884
+2024-12-02 00:31:42 ERROR MicroBatchExecution:97 - Query [id = 6717ae59-a8bb-4ed3-803e-fde92b525ef6, runId = 4b6593fc-1c31-4fee-951b-71489ccf50dd] terminated with error
+py4j.Py4JException: An exception was raised by the Python Proxy. Return Message: Traceback (most recent call last):
+  File "C:\Users\Мария\AppData\Local\Programs\Python\Python311\Lib\site-packages\py4j\clientserver.py", line 617, in _call_proxy
+    return_value = getattr(self.pool[obj_id], method)(*params)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мария\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyspark\sql\utils.py", line 120, in call
+    raise e
+  File "C:\Users\Мария\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyspark\sql\utils.py", line 117, in call
+    self.func(DataFrame(jdf, wrapped_session_jdf), batch_id)
+  File "c:\Users\Мария\OneDrive\Рабочий стол\GO IT\9_Data Engineering\goit-de-hw-06\tools.py", line 36, in print_to_console_1
+    sorted_df = df.orderBy(col("timestamp").asc())
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мария\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyspark\sql\dataframe.py", line 2742, in sort
+    jdf = self._jdf.sort(self._sort_cols(cols, kwargs))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мария\AppData\Local\Programs\Python\Python311\Lib\site-packages\py4j\java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Мария\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyspark\errors\exceptions\captured.py", line 185, in deco
+    raise converted from None
+pyspark.errors.exceptions.captured.AnalysisException: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `timestamp` cannot be resolved. Did you mean one of the following? [`message`, `code`, `h_avg`, `t_avg`, `window`].;
+'Sort ['timestamp ASC NULLS FIRST], true
++- LogicalRDD [window#25, t_avg#26, h_avg#27, code#28, message#29], false
+
+
+	at py4j.Protocol.getReturnValue(Protocol.java:476) ~[py4j-0.10.9.7.jar:?]
+	at py4j.reflection.PythonProxyHandler.invoke(PythonProxyHandler.java:108) ~[py4j-0.10.9.7.jar:?]
+	at jdk.proxy3.$Proxy26.call(Unknown Source) ~[?:?]
+	at org.apache.spark.sql.execution.streaming.sources.PythonForeachBatchHelper$.$anonfun$callForeachBatch$1(ForeachBatchSink.scala:53) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.execution.streaming.sources.PythonForeachBatchHelper$.$anonfun$callForeachBatch$1$adapted(ForeachBatchSink.scala:53) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.execution.streaming.sources.ForeachBatchSink.addBatch(ForeachBatchSink.scala:34) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runBatch$17(MicroBatchExecution.scala:732) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runBatch$16(MicroBatchExecution.scala:729) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken(ProgressReporter.scala:427) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken$(ProgressReporter.scala:425) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.execution.streaming.StreamExecution.reportTimeTaken(StreamExecution.scala:67) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.runBatch(MicroBatchExecution.scala:729) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runActivatedStream$2(MicroBatchExecution.scala:286) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23) ~[scala-library-2.12.18.jar:?]
+	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken(ProgressReporter.scala:427) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.execution.streaming.ProgressReporter.reportTimeTaken$(ProgressReporter.scala:425) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.execution.streaming.StreamExecution.reportTimeTaken(StreamExecution.scala:67) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.$anonfun$runActivatedStream$1(MicroBatchExecution.scala:249) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.execution.streaming.MultiBatchExecutor.execute(TriggerExecutor.scala:49) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.execution.streaming.MicroBatchExecution.runActivatedStream(MicroBatchExecution.scala:239) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.execution.streaming.StreamExecution.$anonfun$runStream$1(StreamExecution.scala:311) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23) ~[scala-library-2.12.18.jar:?]
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.execution.streaming.StreamExecution.org$apache$spark$sql$execution$streaming$StreamExecution$$runStream(StreamExecution.scala:289) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.execution.streaming.StreamExecution$$anon$1.$anonfun$run$1(StreamExecution.scala:211) ~[spark-sql_2.12-3.5.3.jar:3.5.3]
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23) [scala-library-2.12.18.jar:?]
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:94) [spark-core_2.12-3.5.3.jar:3.5.3]
+	at org.apache.spark.sql.execution.streaming.StreamExecution$$anon$1.run(StreamExecution.scala:211) [spark-sql_2.12-3.5.3.jar:3.5.3]
+2024-12-02 00:31:42 INFO  AppInfoParser:83 - App info kafka.admin.client for adminclient-1 unregistered
+2024-12-02 00:31:42 INFO  Metrics:659 - Metrics scheduler closed
+2024-12-02 00:31:42 INFO  Metrics:663 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-12-02 00:31:42 INFO  Metrics:669 - Metrics reporters closed
+2024-12-02 00:31:42 INFO  AbstractConnector:383 - Stopped Spark@2989e900{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2024-12-02 00:33:59 INFO  log:170 - Logging initialized @3895ms to org.sparkproject.jetty.util.log.Slf4jLog
+2024-12-02 00:33:59 INFO  Server:375 - jetty-9.4.54.v20240208; built: 2024-02-08T19:42:39.027Z; git: cef3fbd6d736a21e7d541a5db490381d95a2047d; jvm 21.0.5+11-LTS
+2024-12-02 00:33:59 INFO  Server:415 - Started @4030ms
+2024-12-02 00:33:59 INFO  AbstractConnector:333 - Started ServerConnector@2989e900{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2024-12-02 00:33:59 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@4758c62f{/,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:1159 - Stopped o.s.j.s.ServletContextHandler@4758c62f{/,null,STOPPED,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@111f70fc{/jobs,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@63239113{/jobs/json,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@59f63283{/jobs/job,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@23ca7962{/jobs/job/json,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@79f2cb3c{/stages,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@6d82b66d{/stages/json,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@670691b2{/stages/stage,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@50d1e694{/stages/stage/json,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@134a57ea{/stages/pool,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@6b34700f{/stages/pool/json,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@7c6e2d79{/storage,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@76f4885b{/storage/json,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@108c4ea6{/storage/rdd,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@3d836886{/storage/rdd/json,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@77d8fd33{/environment,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@2961ff2{/environment/json,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@2c08ab54{/executors,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@6991816{/executors/json,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@3c1c42d9{/executors/threadDump,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@512d5280{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@62baf0d8{/executors/heapHistogram,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@134ed6f5{/executors/heapHistogram/json,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@69de42af{/static,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@35436396{/,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@740aa54d{/api,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@4a09de5d{/jobs/job/kill,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@5f8af940{/stages/stage/kill,null,AVAILABLE,@Spark}
+2024-12-02 00:34:04 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@5012d182{/metrics/json,null,AVAILABLE,@Spark}
+2024-12-02 00:34:05 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@30e1179b{/SQL,null,AVAILABLE,@Spark}
+2024-12-02 00:34:05 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@79e1d967{/SQL/json,null,AVAILABLE,@Spark}
+2024-12-02 00:34:05 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@42f26c5{/SQL/execution,null,AVAILABLE,@Spark}
+2024-12-02 00:34:05 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@5b85e2e0{/SQL/execution/json,null,AVAILABLE,@Spark}
+2024-12-02 00:34:05 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@303cf1da{/static/sql,null,AVAILABLE,@Spark}
+2024-12-02 00:34:07 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@74214581{/StreamingQuery,null,AVAILABLE,@Spark}
+2024-12-02 00:34:07 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@7c9c9ee0{/StreamingQuery/json,null,AVAILABLE,@Spark}
+2024-12-02 00:34:07 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@28b5d6f{/StreamingQuery/statistics,null,AVAILABLE,@Spark}
+2024-12-02 00:34:07 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@2c43fec7{/StreamingQuery/statistics/json,null,AVAILABLE,@Spark}
+2024-12-02 00:34:07 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@2a87ed19{/static/sql,null,AVAILABLE,@Spark}
+2024-12-02 00:34:07 INFO  AdminClientConfig:372 - AdminClientConfig values: 
+	bootstrap.servers = [77.81.230.104:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = PLAIN
+	security.protocol = SASL_PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2024-12-02 00:34:07 INFO  AbstractLogin:61 - Successfully logged in.
+2024-12-02 00:34:07 WARN  AdminClientConfig:380 - The configuration 'key.deserializer' was supplied but isn't a known config.
+2024-12-02 00:34:07 WARN  AdminClientConfig:380 - The configuration 'value.deserializer' was supplied but isn't a known config.
+2024-12-02 00:34:07 WARN  AdminClientConfig:380 - The configuration 'enable.auto.commit' was supplied but isn't a known config.
+2024-12-02 00:34:07 WARN  AdminClientConfig:380 - The configuration 'max.poll.records' was supplied but isn't a known config.
+2024-12-02 00:34:07 WARN  AdminClientConfig:380 - The configuration 'auto.offset.reset' was supplied but isn't a known config.
+2024-12-02 00:34:07 INFO  AppInfoParser:119 - Kafka version: 2.8.0
+2024-12-02 00:34:07 INFO  AppInfoParser:120 - Kafka commitId: ebb1d6e21cc92130
+2024-12-02 00:34:07 INFO  AppInfoParser:121 - Kafka startTimeMs: 1733096047986
+2024-12-02 00:34:11 INFO  AppInfoParser:83 - App info kafka.admin.client for adminclient-1 unregistered
+2024-12-02 00:34:11 INFO  Metrics:659 - Metrics scheduler closed
+2024-12-02 00:34:11 INFO  Metrics:663 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-12-02 00:34:11 INFO  Metrics:669 - Metrics reporters closed
+2024-12-02 00:34:11 INFO  AbstractConnector:383 - Stopped Spark@2989e900{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2024-12-02 00:41:22 INFO  log:170 - Logging initialized @4207ms to org.sparkproject.jetty.util.log.Slf4jLog
+2024-12-02 00:41:22 INFO  Server:375 - jetty-9.4.54.v20240208; built: 2024-02-08T19:42:39.027Z; git: cef3fbd6d736a21e7d541a5db490381d95a2047d; jvm 21.0.5+11-LTS
+2024-12-02 00:41:22 INFO  Server:415 - Started @4342ms
+2024-12-02 00:41:22 INFO  AbstractConnector:333 - Started ServerConnector@790e61dd{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2024-12-02 00:41:22 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@505927b9{/,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:1159 - Stopped o.s.j.s.ServletContextHandler@505927b9{/,null,STOPPED,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@984e1a4{/jobs,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@2f097472{/jobs/json,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@31cf02a2{/jobs/job,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@25f884fa{/jobs/job/json,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@33811445{/stages,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@2b88c21e{/stages/json,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@1290407a{/stages/stage,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@527008d4{/stages/stage/json,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@2d3a08ca{/stages/pool,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@5f8e71aa{/stages/pool/json,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@57a7a22e{/storage,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@214ba4a0{/storage/json,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@55b03933{/storage/rdd,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@d311a1{/storage/rdd/json,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@99e35e7{/environment,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@634a209c{/environment/json,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@5944ff93{/executors,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@736e7cc0{/executors/json,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@42d09a04{/executors/threadDump,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@14c939de{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@5c04c581{/executors/heapHistogram,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@1b7aa927{/executors/heapHistogram/json,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@6800a87d{/static,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@19628a01{/,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@4ac2e13{/api,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@6e3bf770{/jobs/job/kill,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@da26672{/stages/stage/kill,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@33ce76b0{/metrics/json,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@3e8e341f{/SQL,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@6f135523{/SQL/json,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@1c3b0a23{/SQL/execution,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@7eec1f37{/SQL/execution/json,null,AVAILABLE,@Spark}
+2024-12-02 00:41:27 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@41e55de1{/static/sql,null,AVAILABLE,@Spark}
+2024-12-02 00:41:29 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@5659e199{/StreamingQuery,null,AVAILABLE,@Spark}
+2024-12-02 00:41:29 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@36f3a24{/StreamingQuery/json,null,AVAILABLE,@Spark}
+2024-12-02 00:41:29 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@34e3ee7f{/StreamingQuery/statistics,null,AVAILABLE,@Spark}
+2024-12-02 00:41:29 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@25bdfd3f{/StreamingQuery/statistics/json,null,AVAILABLE,@Spark}
+2024-12-02 00:41:29 INFO  ContextHandler:921 - Started o.s.j.s.ServletContextHandler@6cdf0dfc{/static/sql,null,AVAILABLE,@Spark}
+2024-12-02 00:41:30 INFO  AdminClientConfig:372 - AdminClientConfig values: 
+	bootstrap.servers = [77.81.230.104:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = PLAIN
+	security.protocol = SASL_PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2024-12-02 00:41:30 INFO  AbstractLogin:61 - Successfully logged in.
+2024-12-02 00:41:30 WARN  AdminClientConfig:380 - The configuration 'key.deserializer' was supplied but isn't a known config.
+2024-12-02 00:41:30 WARN  AdminClientConfig:380 - The configuration 'value.deserializer' was supplied but isn't a known config.
+2024-12-02 00:41:30 WARN  AdminClientConfig:380 - The configuration 'enable.auto.commit' was supplied but isn't a known config.
+2024-12-02 00:41:30 WARN  AdminClientConfig:380 - The configuration 'max.poll.records' was supplied but isn't a known config.
+2024-12-02 00:41:30 WARN  AdminClientConfig:380 - The configuration 'auto.offset.reset' was supplied but isn't a known config.
+2024-12-02 00:41:30 INFO  AppInfoParser:119 - Kafka version: 2.8.0
+2024-12-02 00:41:30 INFO  AppInfoParser:120 - Kafka commitId: ebb1d6e21cc92130
+2024-12-02 00:41:30 INFO  AppInfoParser:121 - Kafka startTimeMs: 1733096490457
+2024-12-02 00:41:33 INFO  ConsumerConfig:372 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = none
+	bootstrap.servers = [77.81.230.104:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = PLAIN
+	security.protocol = SASL_PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+2024-12-02 00:41:33 INFO  ConsumerConfig:372 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = none
+	bootstrap.servers = [77.81.230.104:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = PLAIN
+	security.protocol = SASL_PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+2024-12-02 00:41:33 INFO  AppInfoParser:119 - Kafka version: 2.8.0
+2024-12-02 00:41:33 INFO  AppInfoParser:120 - Kafka commitId: ebb1d6e21cc92130
+2024-12-02 00:41:33 INFO  AppInfoParser:121 - Kafka startTimeMs: 1733096493952
+2024-12-02 00:41:33 INFO  AppInfoParser:119 - Kafka version: 2.8.0
+2024-12-02 00:41:33 INFO  AppInfoParser:120 - Kafka commitId: ebb1d6e21cc92130
+2024-12-02 00:41:33 INFO  KafkaConsumer:1120 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Subscribed to partition(s): building_sensors_MZ-1
+2024-12-02 00:41:33 INFO  AppInfoParser:121 - Kafka startTimeMs: 1733096493952
+2024-12-02 00:41:33 INFO  KafkaConsumer:1120 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Subscribed to partition(s): building_sensors_MZ-0
+2024-12-02 00:41:33 INFO  KafkaConsumer:1582 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to offset 0 for partition building_sensors_MZ-1
+2024-12-02 00:41:33 INFO  KafkaConsumer:1582 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to offset 0 for partition building_sensors_MZ-0
+2024-12-02 00:41:34 INFO  Metadata:279 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Cluster ID: chIAo_gdRnOVaOI0JkkL_w
+2024-12-02 00:41:34 INFO  Metadata:279 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Cluster ID: chIAo_gdRnOVaOI0JkkL_w
+2024-12-02 00:41:34 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to EARLIEST offset of partition building_sensors_MZ-0
+2024-12-02 00:41:34 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to EARLIEST offset of partition building_sensors_MZ-1
+2024-12-02 00:41:34 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Resetting offset for partition building_sensors_MZ-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-02 00:41:34 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Resetting offset for partition building_sensors_MZ-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-02 00:41:34 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to LATEST offset of partition building_sensors_MZ-1
+2024-12-02 00:41:34 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to LATEST offset of partition building_sensors_MZ-0
+2024-12-02 00:41:34 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Resetting offset for partition building_sensors_MZ-0 to position FetchPosition{offset=59, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-02 00:41:34 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Resetting offset for partition building_sensors_MZ-1 to position FetchPosition{offset=67, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-02 00:41:34 INFO  KafkaConsumer:1582 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to offset 59 for partition building_sensors_MZ-1
+2024-12-02 00:41:34 INFO  KafkaConsumer:1582 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to offset 56 for partition building_sensors_MZ-0
+2024-12-02 00:41:34 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to EARLIEST offset of partition building_sensors_MZ-1
+2024-12-02 00:41:34 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to EARLIEST offset of partition building_sensors_MZ-0
+2024-12-02 00:41:35 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Resetting offset for partition building_sensors_MZ-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-02 00:41:35 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Resetting offset for partition building_sensors_MZ-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-02 00:41:35 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to LATEST offset of partition building_sensors_MZ-0
+2024-12-02 00:41:35 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to LATEST offset of partition building_sensors_MZ-1
+2024-12-02 00:41:35 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Resetting offset for partition building_sensors_MZ-0 to position FetchPosition{offset=59, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-02 00:41:35 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Resetting offset for partition building_sensors_MZ-1 to position FetchPosition{offset=67, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-02 00:41:35 INFO  KafkaConsumer:1582 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to offset 0 for partition building_sensors_MZ-1
+2024-12-02 00:41:35 INFO  KafkaConsumer:1582 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to offset 0 for partition building_sensors_MZ-0
+2024-12-02 00:41:35 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to EARLIEST offset of partition building_sensors_MZ-0
+2024-12-02 00:41:35 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to EARLIEST offset of partition building_sensors_MZ-1
+2024-12-02 00:41:35 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Resetting offset for partition building_sensors_MZ-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-02 00:41:35 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Resetting offset for partition building_sensors_MZ-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-02 00:41:35 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to LATEST offset of partition building_sensors_MZ-0
+2024-12-02 00:41:35 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to LATEST offset of partition building_sensors_MZ-1
+2024-12-02 00:41:36 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Resetting offset for partition building_sensors_MZ-0 to position FetchPosition{offset=59, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-02 00:41:36 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Resetting offset for partition building_sensors_MZ-1 to position FetchPosition{offset=67, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-02 00:41:36 INFO  KafkaConsumer:1582 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to offset 56 for partition building_sensors_MZ-0
+2024-12-02 00:41:36 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to EARLIEST offset of partition building_sensors_MZ-0
+2024-12-02 00:41:36 INFO  KafkaConsumer:1582 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to offset 59 for partition building_sensors_MZ-1
+2024-12-02 00:41:36 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to EARLIEST offset of partition building_sensors_MZ-1
+2024-12-02 00:41:36 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Resetting offset for partition building_sensors_MZ-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-02 00:41:36 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Resetting offset for partition building_sensors_MZ-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-02 00:41:36 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to LATEST offset of partition building_sensors_MZ-0
+2024-12-02 00:41:36 INFO  SubscriptionState:619 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Seeking to LATEST offset of partition building_sensors_MZ-1
+2024-12-02 00:41:36 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Resetting offset for partition building_sensors_MZ-1 to position FetchPosition{offset=67, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-02 00:41:36 INFO  SubscriptionState:398 - [Consumer clientId=consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2, groupId=spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor] Resetting offset for partition building_sensors_MZ-0 to position FetchPosition{offset=59, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[77.81.230.104:9092 (id: 1001 rack: null)], epoch=0}}.
+2024-12-02 00:41:37 INFO  AppInfoParser:83 - App info kafka.admin.client for adminclient-1 unregistered
+2024-12-02 00:41:37 INFO  Metrics:659 - Metrics scheduler closed
+2024-12-02 00:41:37 INFO  Metrics:663 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-12-02 00:41:37 INFO  Metrics:669 - Metrics reporters closed
+2024-12-02 00:41:38 INFO  Metrics:659 - Metrics scheduler closed
+2024-12-02 00:41:38 INFO  Metrics:663 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-12-02 00:41:38 INFO  Metrics:669 - Metrics reporters closed
+2024-12-02 00:41:38 INFO  AppInfoParser:83 - App info kafka.consumer for consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-2 unregistered
+2024-12-02 00:41:38 INFO  Metrics:659 - Metrics scheduler closed
+2024-12-02 00:41:38 INFO  Metrics:663 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-12-02 00:41:38 INFO  Metrics:669 - Metrics reporters closed
+2024-12-02 00:41:38 INFO  AppInfoParser:83 - App info kafka.consumer for consumer-spark-kafka-source-0a9309b0-7d7d-4ad7-af35-733269cf1e67--1752469487-executor-1 unregistered
+2024-12-02 00:41:38 INFO  AbstractConnector:383 - Stopped Spark@790e61dd{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}

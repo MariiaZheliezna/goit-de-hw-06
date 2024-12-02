@@ -70,7 +70,7 @@ def view_sensor_topic_messages(topic):
                 'org.apache.kafka.common.security.plain.PlainLoginModule required username="admin" password="VawEzo1ikLtrA8Ug8THa";') \
         .option("subscribe", topic) \
         .option("startingOffsets", "earliest") \
-        .option("maxOffsetsPerTrigger", "5") \
+        .option("maxOffsetsPerTrigger", "200") \
         .load()   
     df = df.selectExpr("CAST(value AS STRING) as json_data") \
         .select(from_json(col("json_data"), schema).alias("data")) \
@@ -82,13 +82,14 @@ def view_sensor_topic_messages(topic):
         .foreachBatch(print_to_console_s) \
         .start() \
         .awaitTermination()
+    return df
 
 def view_alert_topic_messages(topic):
     # Створення сесії Spark
     spark = SparkSession.builder \
         .appName("Kafka Spark Streaming") \
         .config("spark.default.parallelism", "1") \
-        .config("spark.sql.shuffle.partitions", "2") \
+        .config("spark.sql.shuffle.partitions", "1") \
         .config("spark.jars.packages", "org.apache.spark:spark-sql-kafka-0-10_2.12:3.2.1") \
         .config("spark.driver.extraJavaOptions", "-Dlog4j.configuration=file:log4j.properties") \
         .getOrCreate()
@@ -112,7 +113,7 @@ def view_alert_topic_messages(topic):
                 'org.apache.kafka.common.security.plain.PlainLoginModule required username="admin" password="VawEzo1ikLtrA8Ug8THa";') \
         .option("subscribe", topic) \
         .option("startingOffsets", "earliest") \
-        .option("maxOffsetsPerTrigger", "5") \
+        .option("maxOffsetsPerTrigger", "200") \
         .load()   
     df = df.selectExpr("CAST(value AS STRING) as json_data") \
         .select(from_json(col("json_data"), schema).alias("data")) \
@@ -127,9 +128,14 @@ def view_alert_topic_messages(topic):
     
 
 
-# topic_name="building_sensors_alerts_MZ"
-topic_name="building_sensors_MZ"
-# view_kafka_topics("_MZ")
-view_sensor_topic_messages(topic_name)
-# view_alert_topic_messages(topic_name)
-# create_kafka_topic(topic_name)
+def main():
+    # topic_name="building_sensors_alerts_MZ"
+    # topic_name="building_sensors_MZ"
+    # view_kafka_topics("_MZ")
+    # view_sensor_topic_messages("building_sensors_MZ")
+    view_alert_topic_messages("building_sensors_alerts_MZ")
+    # create_kafka_topic(topic_name)
+
+
+if __name__ == "__main__": 
+    main()
